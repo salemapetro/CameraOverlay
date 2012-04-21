@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+    <SurfaceView
+        android:id="@+id/camera"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:longClickable="true" />
+
+	<TextView
+		android:id="@+id/overlay"
+		android:textSize="11sp"
+		android:textColor="#ffffff"
+		android:textStyle="bold"
+		android:padding="5sp"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:shadowColor="#000000"
+		android:shadowDx="0"
+		android:shadowDy="0"
+		android:shadowRadius="3" />
+</merge>
